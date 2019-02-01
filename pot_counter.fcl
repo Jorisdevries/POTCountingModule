@@ -1,0 +1,13 @@
+# #include "trackfinderalgorithms.fcl"
+
+BEGIN_PROLOG
+
+pot_counter:
+{
+    module_type: "POTCounter"
+
+    ClusterModuleLabel: "linecluster"
+    MinSize: 10 
+}
+
+END_PROLOG
